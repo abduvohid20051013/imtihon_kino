@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtihon_kinolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <label>
+                <select class="select" name="select">
+                    <option disabled selected value="0">select janr of film</option>
+                    <option value="1">horror</option>
+                    <option value="2">comedy</option>
+                    <option value="3">politics</option>
+                    <option value="4">thriller</option>
+                    <option value="5">drama</option>
+                    <option value="6">documentary</option>
+                    <option value="7">cartoon</option>
+                </select>
+                <button class="btn">filter</button>
+            </label>
+        </form>
+        <div class="wrapper">
+            <ul class="list">
+                <li class="item">
+                    <iframe class="iframe" src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="title"> Avangers</h2>
+                    <span class="wrap" style="display: flex; align-items: center;">
+                        <span>Janr:</span>
+                        <p class="janr">drama</p>
+                    </span>
+                    
+                </li>
+                <li class="item">
+                    <iframe class="iframe"  src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="title"> Avangers</h2>
+                    <span class="wrap" style="display: flex; align-items: center;">
+                        <span>Janr:</span>
+                        <p class="janr">horror</p>
+                    </span>
+                </li>
+                <li class="item">
+                    <iframe class="iframe"  src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="title"> Avangers</h2>
+                    <span class="wrap" style="display: flex; align-items: center;">
+                        <span>Janr:</span>
+                        <p class="janr">politics</p>
+                    </span>
+                    
+                </li>
+                <li class="item">
+                    <iframe class="iframe"  src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="title"> Avangers</h2>
+                    <span class="wrap" style="display: flex; align-items: center;">
+                        <span>Janr:</span>
+                        <p class="janr">documentary</p>
+                    </span>
+                    
+                </li>
+                <li class="item">
+                    <iframe class="iframe"  src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="title"> Zombies</h2>
+                    <span class="wrap" style="display: flex; align-items: center;">
+                        <span class="span">Janr:</span>
+                        <p class="janr">horror</p>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <button class="lnk">Kino qo'shish sahifasiga o'tish</button>
+    </div>
+    
+    <form class="addForm">
+        <h2 class="addM">Add films</h2>
+        <label class="addLabel">
+            <input type="text" class="addInputScr" placeholder="Type movie url...">
+            <input type="text" class="addInputTitle" placeholder="Type movie name...">
+            <input type="text" class="addInputJanr" placeholder="Type movie janr...">
+            <div class="wrAp" style="display: flex; justify-content: space-around; align-items: center;">
+                <button type="submit" class="add">Add movie</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </label>
+    </form>
+    <script src="maine.js"></script>
+</body>
+
+</html>
